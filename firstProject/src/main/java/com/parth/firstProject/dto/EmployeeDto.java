@@ -6,6 +6,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+// dto is for the data that flow between the presentation and service layer
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
