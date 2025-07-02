@@ -49,7 +49,7 @@ public class EmployeeController {
 
     // by the requestBody we can get all paramters in the url as a single object
     @PostMapping(path="/employee"){
-        public String createNewEmployee(@RequestBody EmployeeDto employeeDto){
+        public EmployeeDto createNewEmployee(@RequestBody EmployeeDto employeeDto){
             return employeeService.createNewEmployee(employeeDto);
         }
     }
